@@ -14,10 +14,6 @@ td{
   text-align: center;
 }
 
-tfoot>tr>td{
-  background-color: #25a377;
-}
-
 tbody>tr{
     background-color: #42f4b6;
 }
