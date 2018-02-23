@@ -1,0 +1,41 @@
+body{
+	font-family: helvetica;
+}
+
+#navmenu{
+	list-style-type: none;
+	width: 100%;
+}
+
+#header{
+height: 100px;
+background-color: #c0c6d1;
+padding: 10px 10px 10px 10px;
+}
+
+#header>h1 a:link{
+text-decoration:none;
+color: #000
+}
+
+#header>h1 a:visited{
+text-decoration:none;
+color: #000
+}
+
+#header>h1 a:hover{
+text-decoration:none;
+color: #000
+}
+
+#header>p{
+font-style: italic;
+}
+
+#navmenu>li{
+	text-align:center;
+	border: 1px solid black;
+	display: inline;
+	padding: 5px;
+	margin: 0px;
+}
