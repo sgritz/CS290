@@ -1,0 +1,55 @@
+<!--Name: Stephanie Gritz-->
+<!--Date: 2/18/2018-->
+<!--CS 290-400 Winter-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+	<form>
+		<fieldset>
+			<legend>Weather by Zip</legend>
+			<label for="zipCountry">Zip code</label>
+			<input type="text" name="zipCountry" id="zipCountry">
+			<input type="submit" id="zipCountrySubmit">
+		</fieldset>
+	</form>
+	</br>
+	<form>
+		<fieldset>
+			<legend>Weather by City</legend>
+			<label for="cityState">City</label>
+			<input type="text" name="cityState" id="cityState">
+			<input type="submit" id="cityStateSubmit">
+		</fieldset>
+	</form>
+	
+	<div>
+		<h2>Current Weather</h2>
+		<ul>
+			<li>City:<span id="cityName"></span></li>
+			<li>Temperature:<span id="temp"></span></li>
+			<li>Humidity:<span id="hum"></span></li>
+		</ul>
+	</div>
+	
+	<form>
+		<fieldset>
+			<legend> Submit to http://httpbin.org/post</legend>
+			<label for="posting">What to post</label>
+			<input type="text" name="posting" id="posting">
+			<input type="submit" id="postingSubmit">
+		</fieldset>
+	</form>
+	
+	<div>
+		<h2>Post Results</h2>
+		<ul>
+			<li>Submitted: <span id="submitted"></span></li>
+			<li>Returned: <span id="returned"></span></li>
+		</ul>
+	</div>
+  </body>
+</html>
